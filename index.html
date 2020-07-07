@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Webpage</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+
+    <section>
+        <h1 class="header">The World's Trusted Currency Authority</h1>
+        <div>
+            <!-- Header and currency input -->
+
+            <h1 class="header">Currency Converter</h1>
+
+            <!-- Drop down list to choose current currency to change FROM -->
+
+            <form action="#">
+                <input type="number" id="amount" />
+                <label for="fromCurrency">From</label>
+                <select name="fromCurrency" id="fromCurrency">
+                    <option value="vnd">VND</option>
+                    <option value="usd">USD</option>
+                    <option value="krw">KRW</option>
+                    <option value="eur">EUR</option>
+
+            </select>
+
+                <label for="toCurrency">To</label>
+                <select name="toCurrency" id="toCurrency">
+                    <option value="vnd">VND</option>
+                    <option value="usd">USD</option>
+                    <option value="krw">KRW</option>
+                    <option value="eur">EUR</option>
+            </select>
+
+                <!-- Conversion button -->
+                <button id="convertButton">Convert!</button>
+                <h1 id="result"></h1>
+
+            </form>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+}
+
+nav {
+    height: 60px;
+}
+
+.header {
+    color: black;
+    font-size: 3.75vw;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    margin-bottom: 1.67em;
+    text-align: center;
+    /* background: rgba(0, 34, 114, 0.65) */
+}
+
+#result {
+    animation: blinkingText 0.2s infinite;
+    color: black;
+    font-size: 3.75vw;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    margin-bottom: 1.67em;
+    text-align: center;
+}
+
+section {
+    width: 600px;
+    height: 300px;
+    /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl0MYFP02fx0N06oTu%2Fgiphy.gif&f=1&nofb=1); */
+}
