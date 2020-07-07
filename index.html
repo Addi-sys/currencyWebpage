@@ -15,38 +15,46 @@
     </nav>
 
     <section>
-        <h1 class="header">The World's Trusted Currency Authority</h1>
-        <div>
-            <!-- Header and currency input -->
+        <div class="container">
+            <h1 class="header">The World's Trusted Currency Authority</h1>
 
-            <h1 class="header">Currency Converter</h1>
+            <div>
 
-            <!-- Drop down list to choose current currency to change FROM -->
+                <!-- Header and currency input -->
+                <h1 class="header">Currency Converter</h1>
 
-            <form action="#">
-                <input type="number" id="amount" />
-                <label for="fromCurrency">From</label>
-                <select name="fromCurrency" id="fromCurrency">
-                    <option value="vnd">VND</option>
-                    <option value="usd">USD</option>
-                    <option value="krw">KRW</option>
-                    <option value="eur">EUR</option>
+                <div class="labels">
+                    <!-- Drop down list to choose current currency to change FROM -->
+                    <form action="#">
 
-            </select>
+                        <input type="number" id="amount" />
 
-                <label for="toCurrency">To</label>
-                <select name="toCurrency" id="toCurrency">
-                    <option value="vnd">VND</option>
-                    <option value="usd">USD</option>
-                    <option value="krw">KRW</option>
-                    <option value="eur">EUR</option>
-            </select>
+                        <label for="fromCurrency">From</label>
+                        <select name="fromCurrency" id="fromCurrency">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                        <option value="krw">KRW</option>
+                        <option value="eur">EUR</option>
+    
+                    </select>
 
-                <!-- Conversion button -->
-                <button id="convertButton">Convert!</button>
-                <h1 id="result"></h1>
+                        <label for="toCurrency">To</label>
+                        <select name="toCurrency" id="toCurrency">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                        <option value="krw">KRW</option>
+                        <option value="eur">EUR</option>
+    
+                    </select>
 
-            </form>
+                        <!-- Conversion button -->
+
+                        <button id="convertButton">Convert!</button>
+
+                        <h1 id="result"></h1>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
